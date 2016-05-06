@@ -1,5 +1,5 @@
 # Personnel-Management-System
-write some thing .a line once time ?
+write some thing .One line each commit ?
 
 Written on the front
  
