@@ -9,6 +9,8 @@ Since taking office during the busy activities and association management organi
 Personnel management is thus I hope to complete the second session. Estimated probability of relying on web group is very low, therefore uphold fewer people to do "great things" tradition again, it's fine contribution to it, have the opportunity to find some friends to do together.
 Since the courses and will face D.study, it is desirable to be completed before enter the D.study.
 
+---translate from google
+
 
 
 
