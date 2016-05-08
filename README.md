@@ -1,7 +1,7 @@
 # Personnel-Management-System
-write some thing .One line each commit ?
+write some thing. One line each commit?
 
-Foreword
+###Foreword
  
 When I took the position in Sep. 2014, there were three projects on our schedule: the Association's Web Portal, the personnel management system and the social network. The most important one is the first one: the web portal.
 
@@ -13,7 +13,7 @@ I have been longing for completing the second project during the 24th grade, but
 
 I'm convinced that least people can do most things. As the schoolwork getting heavier and preparation for graduation drawing near, I want to find some partners to carry on the project with me, commit code in our spare time, and complete it before graduation.
 
-TODO
+###TODO
 
 
 
