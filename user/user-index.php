@@ -1,6 +1,5 @@
 <?php
 require_once('../common/config.php');
-
 ?>
 
 <html>
@@ -17,12 +16,12 @@ require_once('../common/config.php');
 <body>
   <div class="container-fluid">
     <div class="row-fluid">
-         <div class="col-md-2"><!--左边为用户个人信息-->
-            
-
+         <div class="col-md-3"><!--左边为用户个人信息-->
+           <?php require_once('./user-left.php');
+           ?>
          </div>
 
-          <div class="col-md-10"><!--左边为信息-->
+          <div class="col-md-9"><!--左边为信息-->
             <div class="container-fluid" style="text-align:center;">
               <?php
               //$student_info=mysql_query("select * from student where group_id=$user['manage_id'] ");//manage_id 为user管理相应类别学生信息的id标志

@@ -5,15 +5,15 @@ function check_user()
 	$username  =  $_SESSION['username'];
 	$email     =  $_SESSION['email'];
 	$token     =  $_SESSION['token'];
-	if($username&&$email&&$token)
+	if($username && $email && $token)
 	{
 		//查询数据库，验证用户
 
 
-
-		$sql      =   "SELECT * FROM `user` WHERE `email`='$email'";
-		$row      =    mysql_fetch_array($sql);
-		//$row      =   $mysql->getLine($sql);
+		$sql      =   "SELECT * FROM `user` WHERE `email`='$email'"; 
+		$kkk=      mysql_query($sql);
+		//$sql      =    mysql_query("select * from user where username=$username"); fuck 不明白直接执行这句有什么问题 fuck the  warning
+		$row      =    mysql_fetch_array($kkk);//非要多走两部 fcuk
 		$key      =   $row['token'];
 		if($key == $token)
 		{
