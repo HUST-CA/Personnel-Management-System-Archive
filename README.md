@@ -1,19 +1,19 @@
 # Personnel-Management-System
 write some thing .One line each commit ?
 
-Written on the front
+Foreword
  
-When I took office in September 2014, one of the three major tasks of the construction site, including: the Association's official website (the most important), personnel management (members of the Association and members of the Department of Information Management Information Management), social platform.
+When I took the position in Sep. 2014, there were three projects on our schedule: the Association's Web Portal, the personnel management system and the social network. The most important one is the first one: the web portal.
 
-The most important thing is the first.
+However, the project went rather slowly since I was busy with other tasks and had no time to spend on the project.
 
-Since taking office during the busy activities and association management organization, to carry out the construction site is extremely slow. Eventually organized three-two people started construction in May 2015 and formally launched.
+Finally I managed to spare some time and gathered several people to work on the project in 2015, and put it online in May. Though it was a bit naive at that time, we steadily improved it and the project was completed at length.
 
-Personnel management is thus I hope to complete the second session. Estimated probability of relying on web group is very low, therefore uphold fewer people to do "great things" tradition again, it's fine contribution to it, have the opportunity to find some friends to do together.
+I have been longing for completing the second project during the 24th grade, but the Web team is not so reliable judging by previous experiences (well, just complaining). However, I don't want to abandon this project, and it's not just me that wanted to build such a system - previous leaders expect this as well. But they didn't get down to the project due to apparent difficulty.
 
-Since the courses and will face D.study, it is desirable to be completed before enter the D.study.
+I'm convinced that least people can do most things. As the schoolwork getting heavier and preparation for graduation drawing near, I want to find some partners to carry on the project with me, commit code in our spare time, and complete it before graduation.
 
----translate from google
+TODO
 
 
 
