@@ -9,8 +9,6 @@ $query=mysql_query();
       <title>PMS--HUSTCA</title>
       <meta charset="utf-8">
       <meta http-equiv="Cache-Control" content="no-transform "/>
-      <meta name="keyword" content="华中科技大学计算机协会 HUSTCA"/>
-      <meta name="description" content="HUSTCA 华科计算机 协会 社团 华中科技大学计算机协会 华科社团 hust" />
       <meta name="viewport" content="width=device-width, initial-scale=1,minimun-scale=1, maximum-scale=1">
 
      <link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css"/>
