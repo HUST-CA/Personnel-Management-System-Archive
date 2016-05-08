@@ -28,12 +28,7 @@
               <input type="text" id="motto" name="motto" placeholder="写一句激励自己的话吧"  class="span8">
             </div>
           </div>
-          <div class="control-group">
-            <label class="control-label" for="image">上传头像</label>
-            <div class="controls">
-              <input type="file" id="image" name="image"  class="span4">
-            </div>
-          </div>
+    
           <div class="control-group">
             <div class="controls">
                    <button type="submit" class="btn btn-large btn-primary reg_submit_btn" name="reg_btn">确认</button>
