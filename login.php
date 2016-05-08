@@ -1,4 +1,4 @@
-<?php session_start();?> //
+<?php session_start();?> 
 
 <?php require_once("./common/config.php");?>
 
@@ -9,10 +9,9 @@
     <title>Personnel-MS login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-transform "/>
-    <meta name="keyword" content="HUSTCA   "/>
     <!-- styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="style/css/bootstrap.css" rel="stylesheet">
+    <link href="style/css/bootstrap-responsive.min.css" rel="stylesheet">
 
   </head>
 <body>
@@ -107,10 +106,10 @@
 
 
 
-<?php require_once("./functions/regist.php");?>
+<?php require_once("./functions/register.php");?>
 <?php require_once("./functions/login_check.php");?>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="style/js/jquery.js"></script>
+<script src="style/js/bootstrap.min.js"></script>
 </html>
