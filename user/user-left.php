@@ -41,4 +41,10 @@
 				<div class="col-md-12">
 					<p><code>人生格言：</code><br/><?php echo htmlspecialchars($u_row['motto']);?></p>
 				</div>
+        <div class="col-md-12">
+					<p><a href="./user-index.php?operate=update_myself" style="color:blue;">修改信息</a></p>
+				</div>
+        <div class="col-md-12">
+					<p><a href="./user-index.php?operate=help" style="color:blue;">使用帮助</a></p>
+				</div>
 </div>

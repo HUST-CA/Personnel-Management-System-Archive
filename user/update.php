@@ -79,6 +79,6 @@
 mysql_close($con);
 
 
-echo "<script>window.location=\"./user_index.php\"</script>";
+
 
 ?>

@@ -1,5 +1,6 @@
 <?php
 require_once('../common/config.php');
+require_once('./header.php');
 ?>
 
 <html>
@@ -22,54 +23,37 @@ require_once('../common/config.php');
            ?>
          </div>
 
-          <div class="col-md-9"><!--左边为信息-->
-            <div class="container-fluid" style="text-align:center;">
-              <?php
-              //$student_info=mysql_query("select * from student where group_id=$user['manage_id'] ");//manage_id 为user管理相应类别学生信息的id标志
-              $student_info=mysql_query("select * from  huiyuan");
-              //$stu_io=mysql_fetch_array($student_info);
+          <div class="col-md-9"><!--右边为操作信息版面-->
+            <?php  $tag = true;
+                  $operate = $_GET['operate'];
+                  switch ($operate) {
+                    case 'list':
+                      require_once("./../student/huiyuan/hy-list.php"); //更新会员信息 部员以及以上成员由更高等级管理员修改 此等级无权进行任何修改
+                      break;
+                     case 'edit':
+                      require_once("./../student/huiyuan/hy-edit.php");
+                      break;
+                     case 'add':
+                      require_once("./../student/huiyuan/hy-add.php");
+                      break;
+                     case 'delete':
+                      require_once("./../student/huiyuan/hy-delete.php");
+                      break;
+                    case 'search':
+                      require_once("./../student/huiyuan/hy-search.php");
+                      break;
+                    case 'update_myself':
+                      require_once("./update.php");//更新管理员自己的信息
+                      break;
+                    case 'help':
+                      require_once("./user-help.php");//操作使用帮助
+                      break;
+                    default:
+                      require_once("./user-help.php");//默认显示操作使用帮助
+                      break;
+                  }
               ?>
-                <div class="col-md-12">
-                  <table class="table table-hover ">
-                    <thead>
-                      <th>ID</th>
-                      <th>Name</th>
-                      <th>Tel</th>
-                      <th>Email</th>
-                      <th>Group</th>
-                      <th>Session</th>
-                      <th>Sex</th>
-                    </thead>
-                    <tbody>
-                      <?php
 
-                      while($stu_io=mysql_fetch_array($student_info)) { ?>
-                        <tr>
-                          <td class="span1"><code><?php echo $stu_io['id']; ?></code> </td>
-                          <td class="span1"><?php echo $stu_io['name']; ?> </td>
-                          <td class="span1"><?php echo $stu_io['tel']; ?> </td>
-                          <td class="span1"><?php echo $stu_io['email']; ?> </td>
-                          <td class="span1"><?php echo $stu_io['groups']; ?> </td>
-                          <td class="span1"><?php echo $stu_io['session']; ?> </td>
-                          <td class="span1"><?php echo $stu_io['sex']; ?> </td>
-
-                        </tr>
-
-                    <?php   } ?>
-                    </tbody>
-
-                  </table>
-
-
-                </div>
-                <div class="col-md-12">
-
-                </div>
-                <div class="col-md-12">
-
-                </div>
-
-            </div>
 
           </div>
 
@@ -79,6 +63,6 @@ require_once('../common/config.php');
 </div>  <!--main page end-->
 
   <!--footer-->
-<?php require_once('./footer.php'); ?>  
+<?php require_once('./footer.php'); ?>
 </body>
 </html>
