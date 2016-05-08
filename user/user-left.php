@@ -1,9 +1,15 @@
+<head>
+ <link rel="stylesheet" type="text/css" href="./../style/css/bootstrap.min.css"/>
+</head>
 <?php require_once("./user-check.php");?>
 <?php
 	if(!check_user())
 	{
-      echo "<a href=\"./login.php\">Please login first.</a>";
-      exit();
+		//echo "<div class=\"col-md-12\" style=\"text-align:center\"  > <a href=\"./login.php\" style=\"text-align:center; \">Please Login First.</a></div>";
+		//echo "<script> setTimeout(window.location.href='./login.php',16); </script>" ;//是自动返回 还是警告一下自己点击返回呢？ 哪个体验号
+		echo "<script> alert('请先登录!!! \\n 单击“确定”返回登录页');location.href= './login.php'; </script>" ;
+
+    exit();
 	}
 ?>
 

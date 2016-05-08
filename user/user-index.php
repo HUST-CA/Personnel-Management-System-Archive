@@ -14,6 +14,7 @@ require_once('../common/config.php');
 </head>
 
 <body>
+  <!--main page begin-->
   <div class="container-fluid">
     <div class="row-fluid">
          <div class="col-md-3"><!--左边为用户个人信息-->
@@ -75,7 +76,9 @@ require_once('../common/config.php');
 
   </div>
 
-</div>
+</div>  <!--main page end-->
 
+  <!--footer-->
+<?php require_once('./footer.php'); ?>  
 </body>
 </html>
