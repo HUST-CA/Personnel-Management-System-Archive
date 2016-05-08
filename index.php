@@ -22,11 +22,19 @@ $query=mysql_query();
 
 <!-- Main Page -->
 <div class="container-fluid">
-  <div class="col-md-12"></div>
-  <div class="col-md-12"></div>
-  <div class="col-md-12"></div>
+  <div class="col-md-12">
+    <h2>你好，欢迎访问PMS</h2>
+    <div class="col-md-4">
+      <p><a href="user/index.php">信息管理人员登录</a></p>
+    </div>
+    <div class="col-md-4">
+      <p><a href="user/register.php">信息管理人员注册</a></p>
+    </div>
+    <div class="col-md-4">
+      <p><a href="www.hustca.com">前往官网</a></p>
+    </div>
 
-
+  </div>
 </div>
 
 
